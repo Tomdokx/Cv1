@@ -1,0 +1,177 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D8DBE2;
+}
+
+.top-nav{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 6rem;
+    background-color: #58A4B0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav{
+    width: 100%;
+    height: 4rem;
+    padding: 0 0.5em 0 0.5em;
+    display: flex;
+}
+
+.left-nav{
+    justify-self: left;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    gap: 2em;
+    margin-left: 3rem;
+    align-items: center;
+}
+
+.right-nav{
+    justify-self: right;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    gap: 2em;
+    margin-right: 3rem;
+    align-items: center;
+    justify-content: right;
+}
+
+.left-nav-icon{
+    width: 4rem;
+    height: 4rem;
+    background-image: url("Eo_circle_red_letter-t.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.nav-button{
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.nav-button:hover{
+    background-color: #A9BCD0;
+}
+
+.page{
+    width: 90%;
+    margin-top:6rem;
+    height: fit-content;
+    background-color:#1B1B1E;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.top-heading{
+    position: relative;
+    width: 89%;
+    height: 20rem;
+    background-color: black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.top-heading-picture{
+    width: 100%;
+    height: 100%;
+    background-image: url("vineyard-g601145987_1920.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-heading-text{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-heading-text-welcome{
+    font-size: 2rem;
+}
+.top-heading-text-name{
+    font-size: 1rem;
+}
+
+.main-section{
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    gap: 5em;
+    justify-content: center;
+}
+.article{
+    height: 30rem;
+    width: 40%;
+    background-color: #373F51;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left-article{
+    align-self: left;
+}
+
+.right-article{
+    align-items: right;
+}
+
+.article-heading{
+    width: 80%;
+    height: 3rem;
+    margin-top:2rem;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    color: white;
+    border-radius: 100px;
+}
+
+.article-main-part{
+    color: white;
+    margin: 1rem;
+    line-height: 1.25rem;
+}
+
+.article-heading p{
+    font-size: 1.5rem;
+}
+
+.footer{
+    position: relative;
+    margin-top: 1rem;
+    width: 100%;
+    height: 5rem;
+    background-color: #58A4B0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
